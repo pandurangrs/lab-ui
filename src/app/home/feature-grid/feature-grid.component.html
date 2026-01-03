@@ -1,0 +1,17 @@
+<section class="feature-grid-container">
+  <div class="grid-wrapper">
+    
+    <div class="feature-card" *ngFor="let item of features">
+      <div class="card-inner" [style.background-color]="item.bgColor">
+        
+        <img [src]="item.image" [alt]="item.title" class="feature-img">
+        
+        <div class="text-overlay">
+          <h2 class="feature-title">{{ item.title }}</h2>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>

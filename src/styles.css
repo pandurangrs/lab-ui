@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Global reset for focus rings across the whole app */
+*:focus {
+    outline: none !important;
+}
+
+.mat-button-wrapper {
+    outline: none !important;
+}

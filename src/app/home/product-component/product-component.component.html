@@ -1,0 +1,14 @@
+<section class="product-section">
+  <h2 class="section-title">Our Products</h2>
+
+  <div class="product-container">
+    <div class="product-card" *ngFor="let product of products">
+      <div class="image-box">
+        <img [src]="product.image" [alt]="product.name">
+      </div>
+      <div class="product-info" [style.background-color]="product.color">
+        <p class="product-name">{{ product.name }}</p>
+      </div>
+    </div>
+  </div>
+</section>

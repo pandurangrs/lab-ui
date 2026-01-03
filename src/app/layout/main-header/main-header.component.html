@@ -1,0 +1,41 @@
+<header class="header-container">
+  <div class="navbar-wrapper">
+
+    <div class="logo-section">
+      <a routerLink="/">
+        <img src="assets/logo/logoA.png" alt="Akshay Multitrade Logo" class="brand-logo">
+      </a>
+    </div>
+
+    <nav class="nav-section">
+      <ul class="nav-list">
+        <li><button mat-button class="nav-link" style="color: red;" routerLink="/">HOME</button></li>
+
+        <li>
+          <button mat-button class="nav-link" #aboutMenuTrigger="matMenuTrigger" [matMenuTriggerFor]="aboutMenu">
+            ABOUT AKSHAY <mat-icon>expand_more</mat-icon>
+          </button>
+          <mat-menu #aboutMenu="matMenu">
+            <button mat-menu-item routerLink="/chairman">Chairman Message</button>
+            <button mat-menu-item routerLink="/vision">Vision & Mission</button>
+            <button mat-menu-item routerLink="/compliance">Complianc documents</button>
+            <button mat-menu-item routerLink="/banking">Banking Partner</button>
+          </mat-menu>
+
+        </li>
+
+        <li><a mat-button class="nav-link" routerLink="/products">PRODUCTS</a></li>
+        <li><a mat-button class="nav-link" routerLink="/plans">BUSINESS PLANS</a></li>
+        <li><a mat-button class="nav-link" routerLink="/downloads">DOWNLOADS</a></li>
+        <li><a mat-button class="nav-link" routerLink="/contact">CONTACT US</a></li>
+
+        <li class="auth-section">
+          <button mat-flat-button class="login-btn" routerLink="/login">
+            LOGIN
+          </button>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,64 @@
+/* Header Background */
+.header-container {
+    background: linear-gradient(90deg, #1707a3 0%, #0c4aff 100%);
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand-logo {
+    height: 60px; /* Matching the logo size in your screenshot */
+    background: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* Fix for the white box issue: Force text color and remove background */
+.nav-link.mat-button {
+    color: white !important;
+    background: transparent !important;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 5px;
+}
+
+/* Login Button Styling */
+.login-btn {
+    background-color: #ffc107 !important; /* Yellow like your screenshot */
+    color: #000 !important;
+    font-weight: bold !important;
+    border-radius: 20px !important;
+    padding: 0 25px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Space out the items */
+.nav-list li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+

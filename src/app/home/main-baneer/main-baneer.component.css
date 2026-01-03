@@ -1,0 +1,135 @@
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.slide-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 500px; /* Adjust height as per your design */
+  object-fit: cover;
+}
+
+/* Smooth Fade Effect */
+.fade-animation {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Dots Styling */
+.dots-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.dots-container span {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dots-container span.active {
+  background-color: #ffc107; /* Matches your Login button yellow */
+  width: 25px; /* Makes the active dot an oval */
+  border-radius: 10px;
+}
+
+
+/* Layout Container */
+.welcome-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* Text takes more space than image */
+  gap: 40px;
+  align-items: center;
+}
+
+/* Typography */
+.main-title {
+  font-size: 42px;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #2e7d32; /* Green color from your screenshot */
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Chairman Section Styling */
+.chairman-info {
+  margin-top: 40px;
+}
+
+.chairman-name {
+  color: #d32f2f; /* Red color from your screenshot */
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.designation {
+  color: #0d47a1; /* Blue color from your screenshot */
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Image Styling */
+.chairman-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 5px solid #eee;
+  transition: transform 0.3s ease;
+}
+
+.chairman-img:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 992px) {
+  .welcome-grid {
+    grid-template-columns: 1fr; /* Stack columns on small screens */
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 32px;
+  }
+}
