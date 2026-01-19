@@ -11,28 +11,28 @@ export class ProductComponentComponent implements OnInit {
   // Product list based on your reference image
   products = [
     {
-      name: 'Akshay Pileorhoids Capsule',
-      image: 'assets/products/p1.jpg',
+      name: 'Kurmayu Pileorhoids Capsule',
+      image: 'assets/products/prod11.webp',
       color: '#001a72' // Dark blue footer color
     },
     {
-      name: 'Akshay Amrit Juice',
-      image: 'assets/products/p2.jpg',
+      name: 'Kurmayu Amrit Juice',
+      image: 'assets/products/prod12.webp',
       color: '#001a72'
     },
     {
-      name: 'Akshay Daibo G',
-      image: 'assets/products/p3.jpg',
+      name: 'Kurmayu Daibo G',
+      image: 'assets/products/prod13.jpg',
       color: '#001a72'
     },
     {
-      name: 'Akshay Artho G',
-      image: 'assets/products/p4.jpg',
+      name: 'Kurmayu Artho G',
+      image: 'assets/products/prod14.avif',
       color: '#001a72'
     },
     {
-      name: 'Akshay Power Booster Plus',
-      image: 'assets/products/p5.jpg',
+      name: 'Kurmayu Power Booster Plus',
+      image: 'assets/products/prod15.jpg',
       color: '#001a72'
     }
   ];

@@ -10,13 +10,13 @@ export class MainBaneerComponent implements OnInit {
 
   // List of your 7 images
   images: string[] = [
-    '../../../assets/banner/1.jpg',
-    '../../../assets/banner/2.jpg',
-    '../../../assets/banner/3.jpg',
-    '../../../assets/banner/4.jpg',
-    '../../../assets/banner/5.jpg',
-    '../../../assets/banner/6.jpg',
-    '../../../assets/banner/7.jpg'
+    '../../../assets/banner/B11.jpeg',
+    '../../../assets/banner/B12.jpeg',
+    '../../../assets/banner/B13.jpeg',
+    // '../../../assets/banner/4.jpg',
+    // '../../../assets/banner/5.jpg',
+    // '../../../assets/banner/6.jpg',
+    // '../../../assets/banner/7.jpg'
   ];
 
 
